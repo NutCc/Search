@@ -30,9 +30,12 @@ public class MainActivity extends AppCompatActivity {
           @Override
            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
               Intent intent=new Intent(MainActivity.this,DetailActivity.class);
-             // String data="hehe";
-              //intent.putExtra("extra_data",data);
+             //我想写个条件。。。能想到的只有switch
+              //String name=Item()
+              //switch ()
+              intent.putExtra("name", "详细信息正在搜索");
                startActivity(intent);
+
            }
        });
 
@@ -40,16 +43,17 @@ public class MainActivity extends AppCompatActivity {
 
 
     private void initltem() {
-        for (int i = 0; i <= 100; i++) {
-            Item one = new Item("item_"+i, R.mipmap.one);
-           // Item two = new Item("item_"+i, R.mipmap.two);
-           // Item three = new Item("item_"+i, R.mipmap.three);
-            //Item four = new Item("item_"+i, R.mipmap.four);
-            itemList.add(one);
-          //  itemList.add(two);
-           // itemList.add(three);
-          //  itemList.add(four);
+        Item one = new Item("吴倩岚", R.mipmap.one);
+        Item two = new Item("谭芮", R.mipmap.two);
+        Item three = new Item("饶东", R.mipmap.three);
+        Item four = new Item("曾名扬", R.mipmap.four);
+        Item five=new Item("吴凡",R.mipmap.four);
+        itemList.add(one);
+        itemList.add(two);
+        itemList.add(three);
+        itemList.add(four);
+        itemList.add(five);
         }
     }
 
-}
+

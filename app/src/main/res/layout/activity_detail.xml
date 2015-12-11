@@ -9,6 +9,7 @@
     android:layout_height="50dp"
     android:background="@color/theme"
     android:text="   详细信息"
+    android:textSize="17dp"
     android:textColor="#fff"
     android:gravity="center_vertical" />
 
