@@ -25,8 +25,12 @@ public class ItemAdapter extends ArrayAdapter<Item> {
         View view= LayoutInflater.from(getContext()).inflate(resourceld, null);
         ImageView imageView=(ImageView)view.findViewById(R.id.iv_item);
         TextView textView=(TextView)view.findViewById(R.id.tv_item);
+        TextView textView1=(TextView)view.findViewById(R.id.list_xuehao);
+        TextView textView2=(TextView)view.findViewById(R.id.list_grade);
         imageView.setImageResource(item.getImageId());
         textView.setText(item.getText());
+        textView1.setText(item.getGrade());
+        textView2.setText(item.getXuehao());
         return view;
     }
 }

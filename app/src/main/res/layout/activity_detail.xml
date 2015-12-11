@@ -12,5 +12,8 @@
     android:textSize="17dp"
     android:textColor="#fff"
     android:gravity="center_vertical" />
+  <ListView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"></ListView>
 
 </RelativeLayout>
