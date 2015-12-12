@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".DetailActivity">
-<TextView
+<android.support.v7.widget.Toolbar
+    android:id="@+id/toolbar"
     android:layout_width="match_parent"
     android:layout_height="50dp"
     android:background="@color/theme"
@@ -12,8 +13,9 @@
     android:textSize="17dp"
     android:textColor="#fff"
     android:gravity="center_vertical" />
-  <ListView
+  <TextView
+      android:id="@+id/tv_detail"
       android:layout_width="match_parent"
-      android:layout_height="match_parent"></ListView>
+      android:layout_height="match_parent"></TextView>
 
 </RelativeLayout>

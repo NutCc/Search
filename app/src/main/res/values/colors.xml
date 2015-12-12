@@ -4,4 +4,7 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
     <color name="theme">#2776c5</color>
+    <color name="dark">#4e4949</color>
+    <color name="card">#7c665d</color>
+    <color name="title">#fff</color>
 </resources>
